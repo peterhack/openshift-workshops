@@ -34,7 +34,7 @@ if (RAINBOW == 'true') { console.log("Rainbows! "); }
 function wmataJsonToGeoJson(jsonData) {
   var dataOut = { type: "FeatureCollection", features: [] };
   var markerSym = "bus";
-  var markerColor = "#FFC0CB";
+  var markerColor = "#FFB6C1";
   if (BEERME == 'true') { markerSym = "beer"; }
 
   if (jsonData.BusPositions) {
